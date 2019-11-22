@@ -1,0 +1,38 @@
+body {
+	background-color: #FEF5E7;
+	color: #117A65;
+	font-family: monospace;
+}
+
+p::first-line{
+	font-weight: bold;
+}
+p::first-letter{
+	font-size: xx-large;
+}
+
+.heading {
+	display: block;
+	max-height: 500px;
+	max-width: 100%;
+	padding: 50px;
+	text-align: center;
+	margin: auto;
+	margin-bottom: 20px;
+	background-color: #BA4A00;
+	color:#FEF5E7;
+}
+.ramblings{
+	display: block;
+}
+p.ramblings{
+	display: inline;
+	float: right;
+}
+img.ramblings{
+	display: inline;
+	float: left;
+}
+.list{
+	display: block;
+}
